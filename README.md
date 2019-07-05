@@ -7,7 +7,30 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```swift
+import SwiftPinYin
+
+let s = PinYin.findOne(c: "臷") {
+	String($0)
+}
+print("臷:[" + s + "]")
+
+let s = PinYin.findAll(s: "杨恩涛1a")
+print(s)
+
+let s = PinYin.findAll(set: Set<Character>("杨恩涛2c")) {
+	String($0)
+}
+print(s)
+
+```
+outputs:
+```
+臷:[zhi2 die2]                                     //0.15秒, 第一次运行, 从文件加载数据.
+["恩": "en1", "涛": "tao1", "杨": "yang2"]          //0.00035秒
+["恩": "en1", "涛": "tao1", "c": "c", "杨": "yang2", "2": "2"] //0.00016秒
+```
+
 
 ## Requirements
 
