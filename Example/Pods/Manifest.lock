@@ -1,0 +1,16 @@
+PODS:
+  - SwiftPinYin (1.0.0)
+
+DEPENDENCIES:
+  - SwiftPinYin (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftPinYin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftPinYin: 9d360085d018d2577b7f3c5cc13ea145eb27041f
+
+PODFILE CHECKSUM: 9b643f1e59e1c0008638b759e2ce1f89635a47ef
+
+COCOAPODS: 1.7.3

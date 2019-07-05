@@ -1,0 +1,6 @@
+framework module Pods_SwiftPinYin_Example {
+  umbrella header "Pods-SwiftPinYin_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
