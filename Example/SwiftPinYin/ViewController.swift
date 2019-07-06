@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 			print("臷:[" + s + "]")
 		}
 		tick {
-			let s = PinYin.findAll(s: "杨恩涛1a")
+			let s = PinYin.findAll(s: "杨恩涛")
 			print(s)
 		}
 		tick {

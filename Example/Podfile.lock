@@ -1,5 +1,5 @@
 PODS:
-  - SwiftPinYin (1.0.0)
+  - SwiftPinYin (1.0.1)
 
 DEPENDENCIES:
   - SwiftPinYin (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftPinYin: 9d360085d018d2577b7f3c5cc13ea145eb27041f
+  SwiftPinYin: e2f818f85867cb8b568230301d47544ebd4d6f44
 
 PODFILE CHECKSUM: 9b643f1e59e1c0008638b759e2ce1f89635a47ef
 

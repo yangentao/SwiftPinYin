@@ -29,7 +29,7 @@ public class PinYin {
 					continue
 				}
 				if let ch = line.first {
-					let py = line[line.index(line.startIndex, offsetBy: 3)...]
+					let py = line[line.index(line.startIndex, offsetBy: 2)...]
 					self.cacheMap[ch] = String(py)
 				}
 			}

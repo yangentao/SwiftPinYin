@@ -1,6 +1,6 @@
 {
   "name": "SwiftPinYin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "用swif写的查询汉字拼音的库.",
   "description": "可以查两万个汉字的拼音, 包含多音字和音调.",
   "homepage": "https://github.com/yangentao/SwiftPinYin",
@@ -13,14 +13,18 @@
   },
   "source": {
     "git": "https://github.com/yangentao/SwiftPinYin.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "swift_versions": [
+    "4.2"
+  ],
   "source_files": "SwiftPinYin/Classes/**/*",
   "resources": [
     "SwiftPinYin/Assets/*.data"
   ],
-  "frameworks": "Foundation"
+  "frameworks": "Foundation",
+  "swift_version": "4.2"
 }

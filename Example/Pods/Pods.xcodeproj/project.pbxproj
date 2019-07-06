@@ -415,37 +415,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08A9C9DF47E019AF5ADA9E5180714696 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E884EC89FA393FB4BBD4F62F3BDF2FD /* SwiftPinYin.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftPinYin/SwiftPinYin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftPinYin/SwiftPinYin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftPinYin/SwiftPinYin.modulemap";
-				PRODUCT_MODULE_NAME = SwiftPinYin;
-				PRODUCT_NAME = SwiftPinYin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		150DFC01439FB6F26764313A7DED7651 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E741283D6E1A34ADAFB932648D245290 /* Pods-SwiftPinYin_Example.release.xcconfig */;
@@ -473,6 +442,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		782E02E4F471DFA6E2E819F2D53A58DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E884EC89FA393FB4BBD4F62F3BDF2FD /* SwiftPinYin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftPinYin/SwiftPinYin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftPinYin/SwiftPinYin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftPinYin/SwiftPinYin.modulemap";
+				PRODUCT_MODULE_NAME = SwiftPinYin;
+				PRODUCT_NAME = SwiftPinYin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -704,7 +705,7 @@
 			};
 			name = Debug;
 		};
-		F70BA0D39B69504CF2604089AD7856CA /* Release */ = {
+		DE936B6C3F170B0FCC12D9A39CCFCC24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E884EC89FA393FB4BBD4F62F3BDF2FD /* SwiftPinYin.xcconfig */;
 			buildSettings = {
@@ -728,13 +729,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -769,8 +769,8 @@
 		D6EEA389B81BC7733AEB56EBB9611E6D /* Build configuration list for PBXNativeTarget "SwiftPinYin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08A9C9DF47E019AF5ADA9E5180714696 /* Debug */,
-				F70BA0D39B69504CF2604089AD7856CA /* Release */,
+				DE936B6C3F170B0FCC12D9A39CCFCC24 /* Debug */,
+				782E02E4F471DFA6E2E819F2D53A58DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftPinYin'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '用swif写的查询汉字拼音的库.'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_versions = ["4.2"]
 
   s.source_files = 'SwiftPinYin/Classes/**/*'
   
