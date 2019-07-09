@@ -38,24 +38,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00AC77A4C19F8A41810DD0AD505F5137 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		00FB3F0A46AB300C444D8099CABF3201 /* SwiftPinYin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftPinYin.framework; path = SwiftPinYin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00AC77A4C19F8A41810DD0AD505F5137 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		00FB3F0A46AB300C444D8099CABF3201 /* SwiftPinYin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPinYin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		021EAC1CA2FF67D45A4D404DD4CB7E4E /* Pods-SwiftPinYin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftPinYin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		161AC123F49CEB576A2EEA25E88B606B /* Pods-SwiftPinYin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftPinYin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20314B7C8869C51653C9E352C92D404D /* Pods-SwiftPinYin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftPinYin_Tests.modulemap"; sourceTree = "<group>"; };
 		2EE54A806FE9103BA57C485EFCACA32C /* Pods-SwiftPinYin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPinYin_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E884EC89FA393FB4BBD4F62F3BDF2FD /* SwiftPinYin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPinYin.xcconfig; sourceTree = "<group>"; };
-		40E957281F7161427157C63DC6A313CD /* yang_pinyin.data */ = {isa = PBXFileReference; includeInIndex = 1; name = yang_pinyin.data; path = SwiftPinYin/Assets/yang_pinyin.data; sourceTree = "<group>"; };
-		445880A7EFE683DFF8FA7615F0169CD2 /* Pods_SwiftPinYin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftPinYin_Tests.framework; path = "Pods-SwiftPinYin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E957281F7161427157C63DC6A313CD /* yang_pinyin.data */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = yang_pinyin.data; path = SwiftPinYin/Assets/yang_pinyin.data; sourceTree = "<group>"; };
+		445880A7EFE683DFF8FA7615F0169CD2 /* Pods_SwiftPinYin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPinYin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FA21A6651801C87D772F14A64A9CCF /* Pods-SwiftPinYin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPinYin_Example-Info.plist"; sourceTree = "<group>"; };
 		5EB83DA8B1FBEBC7F606217CD95FFD8E /* Pods-SwiftPinYin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPinYin_Tests-Info.plist"; sourceTree = "<group>"; };
 		7A06B6F2AB0054BCBD7313E404B0BCC6 /* SwiftPinYin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftPinYin-Info.plist"; sourceTree = "<group>"; };
 		9A3009BAA619C55F9530628D66E05A05 /* Pods-SwiftPinYin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPinYin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9AD132A6FCC563B38579953ACB877949 /* SwiftPinYin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftPinYin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F1BA3FFD0B7A2DDBF2FFC95FF961E78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		AA0E752C56096652FBF40AA7B45A6E4A /* Pods_SwiftPinYin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftPinYin_Example.framework; path = "Pods-SwiftPinYin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD132A6FCC563B38579953ACB877949 /* SwiftPinYin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftPinYin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F1BA3FFD0B7A2DDBF2FFC95FF961E78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AA0E752C56096652FBF40AA7B45A6E4A /* Pods_SwiftPinYin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPinYin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDA1CB22603706155F269D61FD727B0 /* Pods-SwiftPinYin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftPinYin_Example.modulemap"; sourceTree = "<group>"; };
 		AD5B679B2B087E5794FD4D938A90EE17 /* Pods-SwiftPinYin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftPinYin_Tests-dummy.m"; sourceTree = "<group>"; };
 		B2E395C41F68B0C7D557B69C31406758 /* Pods-SwiftPinYin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftPinYin_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -333,6 +333,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 3BE56B80B735CB265B87BABC623D99F1 /* Products */;
@@ -449,7 +450,7 @@
 			};
 			name = Release;
 		};
-		782E02E4F471DFA6E2E819F2D53A58DE /* Release */ = {
+		3E4F7C8FCEDE39ED62B1BC90C6F60E0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E884EC89FA393FB4BBD4F62F3BDF2FD /* SwiftPinYin.xcconfig */;
 			buildSettings = {
@@ -473,13 +474,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		8A4E7E41E03527C0F863A5BA0BD3E704 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -508,6 +508,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		929597F5648F7D7669A7713F973EF45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E884EC89FA393FB4BBD4F62F3BDF2FD /* SwiftPinYin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftPinYin/SwiftPinYin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftPinYin/SwiftPinYin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftPinYin/SwiftPinYin.modulemap";
+				PRODUCT_MODULE_NAME = SwiftPinYin;
+				PRODUCT_NAME = SwiftPinYin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -601,8 +633,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -705,37 +736,6 @@
 			};
 			name = Debug;
 		};
-		DE936B6C3F170B0FCC12D9A39CCFCC24 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E884EC89FA393FB4BBD4F62F3BDF2FD /* SwiftPinYin.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftPinYin/SwiftPinYin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftPinYin/SwiftPinYin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftPinYin/SwiftPinYin.modulemap";
-				PRODUCT_MODULE_NAME = SwiftPinYin;
-				PRODUCT_NAME = SwiftPinYin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -769,8 +769,8 @@
 		D6EEA389B81BC7733AEB56EBB9611E6D /* Build configuration list for PBXNativeTarget "SwiftPinYin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE936B6C3F170B0FCC12D9A39CCFCC24 /* Debug */,
-				782E02E4F471DFA6E2E819F2D53A58DE /* Release */,
+				3E4F7C8FCEDE39ED62B1BC90C6F60E0E /* Debug */,
+				929597F5648F7D7669A7713F973EF45C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
