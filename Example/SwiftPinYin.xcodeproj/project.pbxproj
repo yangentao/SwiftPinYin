@@ -39,10 +39,10 @@
 		93648978F920A0D5417C54F1 /* Pods_SwiftPinYin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPinYin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B4A323E63C0B1B9600DCF6 /* Pods-SwiftPinYin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPinYin_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPinYin_Example/Pods-SwiftPinYin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BAA6F6C094AB4E16549433CF /* Pods-SwiftPinYin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPinYin_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftPinYin_Example/Pods-SwiftPinYin_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C2763FDE26694FBAEB25E4FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E2CEB8030DF1B7AD48B38B44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2763FDE26694FBAEB25E4FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E2CEB8030DF1B7AD48B38B44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E9053603F5D2354147D582AF /* Pods-SwiftPinYin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPinYin_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPinYin_Tests/Pods-SwiftPinYin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EDB83CA2EA1B230CC9C24234 /* SwiftPinYin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftPinYin.podspec; path = ../SwiftPinYin.podspec; sourceTree = "<group>"; };
+		EDB83CA2EA1B230CC9C24234 /* SwiftPinYin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftPinYin.podspec; path = ../SwiftPinYin.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,6 @@
 				E9053603F5D2354147D582AF /* Pods-SwiftPinYin_Tests.debug.xcconfig */,
 				31CD3B7E5BA901A89AA4523B /* Pods-SwiftPinYin_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,10 +206,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HPA69P8D2K;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HPA69P8D2K;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -451,6 +452,7 @@
 			baseConfigurationReference = 95B4A323E63C0B1B9600DCF6 /* Pods-SwiftPinYin_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HPA69P8D2K;
 				INFOPLIST_FILE = SwiftPinYin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -466,6 +468,7 @@
 			baseConfigurationReference = BAA6F6C094AB4E16549433CF /* Pods-SwiftPinYin_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HPA69P8D2K;
 				INFOPLIST_FILE = SwiftPinYin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -480,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9053603F5D2354147D582AF /* Pods-SwiftPinYin_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HPA69P8D2K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -502,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31CD3B7E5BA901A89AA4523B /* Pods-SwiftPinYin_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HPA69P8D2K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
