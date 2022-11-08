@@ -1,6 +1,0 @@
-framework module SwiftPinYin {
-  umbrella header "SwiftPinYin-umbrella.h"
-
-  export *
-  module * { export * }
-}
